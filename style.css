@@ -1,0 +1,29 @@
+:root {
+    --cherry: #c1606f;
+    --intense-cherry: #ca7e1b;
+    --gray: #d8d8d84f;
+}
+
+body {
+    background: linear-gradient(0deg, var(--cherry), var(--intense-cherry));
+}
+
+div {
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#button {
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 15%;
+    font-weight: bold;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: var(--gray);
+}
